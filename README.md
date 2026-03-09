@@ -13,6 +13,25 @@ The chatbot can be embedded into any website as a floating chat widget.
 * Floating chatbot widget
 * Can be embedded on any website with a script
 
+---
+
+## Screenshots
+
+- ingest.py - webscraping wikipidia
+
+![](screenshots/ingest1.png)
+![](screenshots/ingest2.png)
+
+- AI responsing to user chat with context to data from example.com
+
+ ![](screenshots/chat.png)
+
+- AI thinking
+
+![](screenshots/chatthinking.png)
+
+---
+
 ## Architecture
 
 User Question → FastAPI → Vector Search (FAISS) → Context Retrieval → Ollama LLM → Response
